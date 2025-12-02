@@ -7,6 +7,9 @@ import Secondchild from './components/Secondchild'
 import Thirdchild from './components/Thirdchild'
 import Fourthchild from './components/Fourthchild'
 import Fifthchild from './components/Fifthchild'
+import Usestate_hook from './hooks/Usestate_hook'
+import Day from './hooks/Day'
+import Increment_decrement from './hooks/Increment_decrement'
 
 function App() {
 
@@ -22,11 +25,14 @@ function App() {
 
   return (
    <div>
-    <Firstchild name = {name} />
+    {/* <Firstchild name = {name} />
     <Secondchild city = {place}/>
     <Thirdchild employee = {details}/>
     <Fourthchild employee = {details}/>
-    <Fifthchild/>
+    <Fifthchild/> */}
+    {/* <Usestate_hook/> */}
+    {/* <Day/> */}
+    <Increment_decrement/>
    </div>
   )
 }
