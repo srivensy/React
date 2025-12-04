@@ -9,11 +9,12 @@ import Fourthchild from './components/Fourthchild'
 import Fifthchild from './components/Fifthchild'
 import Usestate_hook from './hooks/Usestate_hook'
 import Day from './hooks/Day'
-import Increment_decrement from './hooks/Increment_decrement'
-import Usestate_string from './hooks/Usestate_string'
-import Usestate_example from './components/Usestate_example'
-import UseEffect_Example from './components/UseEffect_Example'
-import Usestate_Example2 from './components/Usestate_Example2'
+// import Increment_decrement from './hooks/Increment_decrement'
+// import Usestate_example from './components/Usestate_example'
+// import UseEffect_Example from './components/UseEffect_Example'
+// import Usestate_Example2 from './components/Usestate_Example2'
+import Usestate_string from './components/Usestate_string'
+import Ternary_operator from './components/Ternary_operator'
 function App() {
 
   const name = "Rajesh"
@@ -39,7 +40,9 @@ function App() {
     {/* <Usestate_string/> */}
     {/* <Usestate_example/> */}
     {/* <UseEffect_Example/> */}
-    <Usestate_Example2/>
+    {/* <Usestate_Example2/> */}
+    {/* <Usestate_string/> */}
+    <Ternary_operator/>
    </div>
   )
 }
