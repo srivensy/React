@@ -15,6 +15,7 @@ import Day from './hooks/Day'
 // import Usestate_Example2 from './components/Usestate_Example2'
 import Usestate_string from './components/Usestate_string'
 import Ternary_operator from './components/Ternary_operator'
+import FormEvents from './components/FormEvents'
 function App() {
 
   const name = "Rajesh"
@@ -42,7 +43,8 @@ function App() {
     {/* <UseEffect_Example/> */}
     {/* <Usestate_Example2/> */}
     {/* <Usestate_string/> */}
-    <Ternary_operator/>
+    {/* <Ternary_operator/> */}
+    <FormEvents/>
    </div>
   )
 }
