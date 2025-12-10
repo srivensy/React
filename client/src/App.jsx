@@ -17,6 +17,7 @@ import Usestate_string from './components/Usestate_string'
 import Ternary_operator from './components/Ternary_operator'
 import FormEvents from './components/FormEvents'
 import Displaydata from './components/Displaydata'
+import UserData from './components/userData'
 function App() {
 
   const name = "Rajesh"
@@ -46,7 +47,8 @@ function App() {
     {/* <Usestate_string/> */}
     {/* <Ternary_operator/> */}
     {/* <FormEvents/> */}
-    <Displaydata/>
+    {/* <Displaydata/> */}
+    <UserData/>
    </div>
   )
 }
