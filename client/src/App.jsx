@@ -18,6 +18,7 @@ import Ternary_operator from './components/Ternary_operator'
 import FormEvents from './components/FormEvents'
 import Displaydata from './components/Displaydata'
 import UserData from './components/userData'
+import Comments from './components/Comments'
 function App() {
 
   const name = "Rajesh"
@@ -48,7 +49,8 @@ function App() {
     {/* <Ternary_operator/> */}
     {/* <FormEvents/> */}
     {/* <Displaydata/> */}
-    <UserData/>
+    {/* <UserData/> */}
+    <Comments/>
    </div>
   )
 }
