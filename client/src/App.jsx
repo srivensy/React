@@ -19,6 +19,7 @@ import FormEvents from './components/FormEvents'
 import Displaydata from './components/Displaydata'
 import UserData from './components/userData'
 import Comments from './components/Comments'
+import Spread_operator from './components/Spread_operator'
 function App() {
 
   const name = "Rajesh"
@@ -50,7 +51,8 @@ function App() {
     {/* <FormEvents/> */}
     {/* <Displaydata/> */}
     {/* <UserData/> */}
-    <Comments/>
+    {/* <Comments/> */}
+    <Spread_operator/>
    </div>
   )
 }
