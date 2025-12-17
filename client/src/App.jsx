@@ -20,6 +20,12 @@ import Displaydata from './components/Displaydata'
 import UserData from './components/userData'
 import Comments from './components/Comments'
 import Spread_operator from './components/Spread_operator'
+import Navbar from './components/Navbar'
+import Home from './components/Home'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Services from './components/Services'
+import About_us from './components/About_us'
+import Contact_us from './components/Contact_us'
 function App() {
 
   const name = "Rajesh"
@@ -52,7 +58,17 @@ function App() {
     {/* <Displaydata/> */}
     {/* <UserData/> */}
     {/* <Comments/> */}
-    <Spread_operator/>
+    {/* <Spread_operator/> */}
+    <Navbar/>
+
+     <BrowserRouter>
+      <Routes>/
+        <Route path="/home" element={<Home />} />
+        <Route path="/services" element={<Services/>}/>
+        <Route path='/aboutus' element={<About_us/>}/>
+        <Route path='/contactus' element={<Contact_us/>}/>
+      </Routes>
+    </BrowserRouter>
    </div>
   )
 }
